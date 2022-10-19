@@ -2,7 +2,7 @@
 
 ## MZF - S02-L13.1 - CREATING VIRTUAL MACHINE ##
 
-  **Tab 1,** _Basics:-_ Click on the Button <Create Virtual Machine>; Select <Pay-as-you-Go>; Create A Resource Group <Create a New Name>; In Instance Details Session, Provide Virtual Machine Name <vmweb01>; Select the Region <East-US>; Retain the Default Settings in Availability Options < No Infrastructure redundancy required>; Select The Image <Windows Server 2012 R2 Datacenter>; Select the Computer Power Size, <1 vcpu, 3.5 GiB Memory>; Administrator Account Section; IN Administrator Account Section <Username>, <Password>, <Confirm Password>; Inbound Port Rules Section, Select the Radio Button  <Allow Selected Ports>, Select Inbound ports <RDP (Remote Desktop Protocal) (3389)>, Select the Button <Next: Disk>
+  **Tab 1,** _Basics:-_ Click on the Button <Create Virtual Machine>; Select <Pay-as-you-Go>; Create A Resource Group <Create a New Name>; In Instance Details Session, Provide Virtual Machine Name <vmweb01>; Select the Region <East-US>; Retain the Default Settings in Availability Options < No Infrastructure redundancy required>; Select The Image <Windows Server 2012 R2 Datacenter>; Select the Computer Power Size, <1 vcpu, 3.5 GiB Memory>; Administrator Account Section; IN Administrator Account Section < Username >, < Password >, < Confirm Password >; Inbound Port Rules Section, Select the Radio Button  <Allow Selected Ports>, Select Inbound ports <RDP (Remote Desktop Protocal) (3389)>, Select the Button <Next: Disk>
 
   **Tab 2,** _Disks:-_ Select the Disk Options, OS Disk Type <Standard HDD>, Retain Rest all Default, Click on the Button <Next: Networking>
 
