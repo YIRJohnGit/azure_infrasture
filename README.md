@@ -12,4 +12,4 @@
 
   **Tab 5,** _Advanced:-_ Extension, Will Support to install Antivirus or client side applications, Monitor Agent, Cloud Init Section for Linux Virtual Machines <VM>; VM Generation, we can select Gen1 or Gen2; Click on the Button <Next: Tag>
 
-  **Tab 5,** _Tages:-_ It is used for Charging Purposes, Billing Purposes for who owns this machine, and we can Specify as follows:
+  **Tab 6,** _Tages:-_ It is used for Charging Purposes, Billing Purposes for who owns this machine, and we can Specify as follows:
