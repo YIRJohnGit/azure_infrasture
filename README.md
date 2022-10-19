@@ -29,7 +29,7 @@
  _Result: for Login Credential_
  ![image](https://user-images.githubusercontent.com/111234771/196572848-87501e31-28b3-46e3-8e82-193e53c54d7f.png)
 
- ## MZF - S02-L16.1 - SETUP FOR WEB SERVER on Windows Virtual Machine ##
+ ## MZF - S02-L16.1 - Setting Up for Web Server on Windows Virtual Machine ##
 
   **Tab 1,** _Basics:-_ Cli
 For Windows, Go to Server Manager, Click on the link <Add roles and features> (Such as Active Directory Roles, for Domain Controller, or DNS Server, or DHCP Roles, Now we are going select web server to host web application ); 
