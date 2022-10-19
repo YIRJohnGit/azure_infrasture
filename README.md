@@ -14,7 +14,8 @@
 
   **Tab 6,** _Tages:-_ It is used for Charging Purposes, Billing Purposes for who owns this machine, and we can Specify as follows:
 
- 
+ ![image](https://user-images.githubusercontent.com/111234771/196573877-759927f6-ed3d-4ef4-80ae-26f06a9b2e6f.png)
+
  ## MZF - S02-L15.1 - Connecting Vrtual Machine with Remote Desktop ##
 
   Go to Windows Run Program, type <mstsc (Microsoft Terminal Service Console)> on run command text in put field, Remote Desktop Connection , Ener the Virtual Machin’s  Public IP Address, Updated User ID and Password
@@ -48,3 +49,22 @@ For Windows, Go to Server Manager, Click on the link <Add roles and features> (S
  **Tab 7,** _Click <Install> Button_, this will take some Site, and this Machine will become Web Server and Click on <Close> button
 
 _@ Verify:_ Launch the Internet Explorer, and verify the url http://localhost/, and you will get default page and to access the Public IP and need to Open the Port 80/443 and we are learning in Next Video_
+
+ 
+ 
+![image](https://user-images.githubusercontent.com/111234771/196573721-fe275b46-6613-442e-9483-2b02fa13d5d0.png)
+
+![image](https://user-images.githubusercontent.com/111234771/196573743-32e8c5a7-8264-4fda-834d-64b8f9871299.png)
+
+
+ 
+ ## MZF - S02-L17.1 - Setting Up Public Access Group for 80/443 Ports in Azure Portal ##
+
+  _Go to Networking Section form the Main Menu_, 
+ **Note:** in this tab, Public IP Address, Private IP Addres, Virtual Network / Subnet and DNS Name and Other Metrics for Performance Purposes;
+Setting UP INBOUND role in the Networking Tab, Set the Follwing:
+Source < Any> ; Source Port Range < * >; Destination <Any>; Destination Port Range <80>; Protocal <Any (TCP/UDP)>; Action <Allow>; Priority <310>; Name <port_80>; Description <Enter Some Description> and Click the <Add> Button
+
+@ Verify the Browser with Public IP Address, and you will be able to access the web site….
+
+ _Note: NEXT WE ARE GOING TO LEARN How to Modify the web site_
