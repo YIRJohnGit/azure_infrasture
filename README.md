@@ -1,6 +1,6 @@
 # Azure Infrasture Setup
 
-## MZF - S02-L13.1 - CREATING VIRTUAL MACHINE ##
+## MZF - S02-L13.1 - Creating Virtual Machine ##
 
   **Tab 1,** _Basics:-_ Click on the Button <Create Virtual Machine>; Select <Pay-as-you-Go>; Create A Resource Group <Create a New Name>; In Instance Details Session, Provide Virtual Machine Name <vmweb01>; Select the Region <East-US>; Retain the Default Settings in Availability Options < No Infrastructure redundancy required>; Select The Image <Windows Server 2012 R2 Datacenter>; Select the Computer Power Size, <1 vcpu, 3.5 GiB Memory>; Administrator Account Section; IN Administrator Account Section < Username >, < Password >, < Confirm Password >; Inbound Port Rules Section, Select the Radio Button  <Allow Selected Ports>, Select Inbound ports <RDP (Remote Desktop Protocal) (3389)>, Select the Button <Next: Disk>
 
@@ -13,3 +13,14 @@
   **Tab 5,** _Advanced:-_ Extension, Will Support to install Antivirus or client side applications, Monitor Agent, Cloud Init Section for Linux Virtual Machines <VM>; VM Generation, we can select Gen1 or Gen2; Click on the Button <Next: Tag>
 
   **Tab 6,** _Tages:-_ It is used for Charging Purposes, Billing Purposes for who owns this machine, and we can Specify as follows:
+
+ 
+ ## MZF - S02-L15.1 - Connecting Vrtual Machine with Remote Desktop ##
+
+  Go to Windows Run Program, type <mstsc (Microsoft Terminal Service Console)> on run command text in put field, Remote Desktop Connection , Ener the Virtual Machin’s  Public IP Address, Updated User ID and Password
+ 
+ _Run Command on Windows_
+ ![image](https://user-images.githubusercontent.com/111234771/196572683-97c9736a-33e1-4c92-b7da-4218eecd7b7b.png)
+ 
+ _Result:_
+ ![image](https://user-images.githubusercontent.com/111234771/196572743-7332f1fa-6a44-485e-a365-36dbd79a6b0d.png)
