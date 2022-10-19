@@ -167,3 +167,39 @@ Open the index.html and write the content
  ![image](https://user-images.githubusercontent.com/111234771/196624334-6522e899-d83f-457a-aa84-efc3d118bb57.png)
 
  
+ 
+ ## MZF - S02-L32.1 - AZUR SQL Database ##
+  ### STEP 1 - Create Sql Database  ###
+ STEP 1 - GO TO SQL DATABASE FROM THE MAIN MENU
+	Click on to the Add Button or Create Sql Database Button
+	In Create SQL Database Tab
+o	Subscription < Pay-As-You-Go > 
+o	Create A New Resource Group < HumanResources >
+o	Database Name < Employeeinformation >
+o	Server (Creating New)
+	Create New Server 
+	Server Name < enterprisesinformation >
+	User Name < rootadmin >
+	Password < ^k3A7&^k13J9 >
+	Location (Region) < West Europe >
+o	Wants to use SQL Elastic Pool (Used in Production for auto scalling) < No >
+o	Computer - Storage  
+	Configure Basic VCpu and Storage  (2GiB)
+o	Click the < Next: Additional Settings  > Button to Create the SQD DB Server
+	In Additional Setting Tab
+o	Select the Data Source, Use Existing Data < Sample > (None / Backup / Sample)
+o	Collection < SQL Latin1_General_CP1_CI_AS >
+o	Advance Data Security, Enable Advance Data Security < Start Free Trail > and click on < Next Tags > Button
+	In Tags Page
+o	Name : Sqldatabase
+o	Owner : rob@company.xom
+o	DbAdmin : stev@co.com
+o	And Click on  < Next: Review + Create > Button
+	Validate and Press Create Button 
+ 
+![image](https://user-images.githubusercontent.com/111234771/196634525-105db3a3-8aaf-468c-943e-676464bc1e7f.png)
+
+ ### STEP 2 - GO TO SQL DATABASE FROM THE MAIN MENU, SELECT EXEISTING DATBASE  ###
+Go to Database; Select the Set Server Firewall Settings And Click on the Add Client IP Address Button to fetch the IP Address and Fine Save the Tab
+
+  ![image](https://user-images.githubusercontent.com/111234771/196634322-f10e0efc-d923-44fd-8305-957b2ff8bf11.png)
