@@ -119,3 +119,49 @@ Open the index.html and write the content
 
  
  ![image](https://user-images.githubusercontent.com/111234771/196574681-4d872e8d-d49d-441e-997b-4be0c267b46d.png)
+
+ 
+  ## MZF - S02-L22.1 - Confifuring Two Subnets on the Same Network in windows Server Machine Using CIDR (CIDR – 192.168.) ##
+  ### STEP 1 - GO TO VIRTUAL NETWORKS FROM THE MAIN MENU ###
+   Click on to the Add Button or Create Button
+   _In Create Virtual Network Tab_
+   o	Name < Vnet_Production>
+   o	Address Space < 192.168.0.0/16 >(Class C IP Address)  (Specify Class A / B / C and Learn More on the same)
+   o	Subscription < Pas-As-You-Go (Free) >
+   o	Create a New Resource Group <  Payroll >
+   o	Select the Region <  Central US >
+   o	Subnet Name < Subnet1 >
+   o	Address Range < 192.168.30.0/24 > and retain the rest of to default Setting and Click the Button Create
+   Go to Home > Virtual Network > Vnet_Production – Subnets (For Creating 2nd Subnet)
+   	Click on the Subnet Button
+   o	Name < Subnet2 >
+   o	Address Range (CIDR Block) < 192.168.40.0/24 > and retain the rest od the option to default and press ok button
+
+   _Creating a Virtual Machines with the Following Changes in 1st Subnet_
+   	Make Sure the VM are on the same Regions, Example : Central US, In Basic Tab
+   	In Networking, 
+   o	Select Virtual Network < Vnet_Production >
+   o	Select Subnet Name < Subnet1 ( 192.168.30.0/24 ) > and retain the default Setting in the Networking Section
+
+   Retain Default Setting Same and Review and Create
+
+   Creating a Virtual Machines with the Following Changes in 2nd Subnet
+   	Make Sure the VM are on the same Regions, Example : Central US, In Basic Tab
+   	In Networking, 
+   o	Select Virtual Network < Vnet_Production >
+   o	Select Subnet Name < Subnet1 ( 192.168.40.0/24 ) > and retain the default Setting in the Networking Section
+
+   Retain Default Setting Same and Review and Create
+ 
+   ### STEP 2 – CONFIGURING SUBNETS IN WINDOWS SERVER MACHINES (CIDR – 192.168.) ###
+   Open the Remote Desktop of both the Virtual Machines, Start the terminal, and verify the communication
+   ipconfig
+   ping 196.168.40.4
+
+   ipconfig
+   ping 196.168.30.4
+
+ _Inbound Settings_
+ ![image](https://user-images.githubusercontent.com/111234771/196624334-6522e899-d83f-457a-aa84-efc3d118bb57.png)
+
+ 
