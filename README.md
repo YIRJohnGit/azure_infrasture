@@ -153,6 +153,8 @@ Open the index.html and write the content
 
    Retain Default Setting Same and Review and Create
  
+ ![image](https://user-images.githubusercontent.com/111234771/196625879-42191b14-73a0-479f-a704-4a295839330b.png)
+
    ### STEP 2 – CONFIGURING SUBNETS IN WINDOWS SERVER MACHINES (CIDR – 192.168.) ###
    Open the Remote Desktop of both the Virtual Machines, Start the terminal, and verify the communication
    ipconfig
