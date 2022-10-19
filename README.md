@@ -27,3 +27,24 @@
 
  _Result: for Login Credential_
  ![image](https://user-images.githubusercontent.com/111234771/196572848-87501e31-28b3-46e3-8e82-193e53c54d7f.png)
+
+ ## MZF - S02-L16.1 - SETUP FOR WEB SERVER on Windows Virtual Machine ##
+
+  **Tab 1,** _Basics:-_ Cli
+For Windows, Go to Server Manager, Click on the link <Add roles and features> (Such as Active Directory Roles, for Domain Controller, or DNS Server, or DHCP Roles, Now we are going select web server to host web application ); 
+
+ **Tab 1,** _Before Begin_ <Retail all Default Settings>; Click on <Next> Button
+
+ **Tab 2,** _Installation Type:_ Select <Role Based and Feature-based installation> and Click on <Next> Button 
+
+ **Tab 3,** _Server Selection:_ Select the Virtual Machine Available in the List <Microsoft Server 2012, R2 DataCenter>, Click on <Next > button
+
+ **Tab 4,** _Server Roles:_ Tick on the List to Select Web Server (IIS), While Selecting this will ask for Some more dependency in the next Windows and Select Add Features and click the Button <Add Features>,  Click on <Next> Button in Server Role Table
+ 
+ **Tab 5,** _Features:_ Click <Next> Button with Default Setting
+
+ **Tab 6,** _Web Server Role(IIS):_ Click on <Next> Button; in Click Next in Sub Menu Called Role Serves; Click Next to Move on to Confirmation
+
+ **Tab 7,** _Click <Install> Button_, this will take some Site, and this Machine will become Web Server and Click on <Close> button
+
+_@ Verify:_ Launch the Internet Explorer, and verify the url http://localhost/, and you will get default page and to access the Public IP and need to Open the Port 80/443 and we are learning in Next Video_
