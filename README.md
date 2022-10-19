@@ -22,5 +22,8 @@
  _Run Command on Windows_
  ![image](https://user-images.githubusercontent.com/111234771/196572683-97c9736a-33e1-4c92-b7da-4218eecd7b7b.png)
  
- _Result:_
+ _Result: Connecting to Remote Computers_
  ![image](https://user-images.githubusercontent.com/111234771/196572743-7332f1fa-6a44-485e-a365-36dbd79a6b0d.png)
+
+ _Result: for Login Credential_
+ ![image](https://user-images.githubusercontent.com/111234771/196572848-87501e31-28b3-46e3-8e82-193e53c54d7f.png)
