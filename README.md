@@ -58,7 +58,7 @@ _@ Verify:_ Launch the Internet Explorer, and verify the url http://localhost/, 
 
 
  
- ## MZF - S02-L17.1 - Setting Up Public Access Group for 80/443 Ports in Azure Portal ##
+ ## MZF - S02-L17.1 - Setting Up Public IP Access, Security Group, Inbound Role 80/443 Ports in Azure Portal ##
 
   _Go to Networking Section form the Main Menu_, 
  **Note:** in this tab, Public IP Address, Private IP Addres, Virtual Network / Subnet and DNS Name and Other Metrics for Performance Purposes;
@@ -68,3 +68,12 @@ Source < Any> ; Source Port Range < * >; Destination <Any>; Destination Port Ran
 @ Verify the Browser with Public IP Address, and you will be able to access the web site….
 
  _Note: NEXT WE ARE GOING TO LEARN How to Modify the web site_
+
+ 
+ ## MZF - S02-L18.1 - Changing the Content of Web Server in Windows Server Machine ##
+
+  Go to , C:/Windows/inetpub/wwwroot folder, and iisstart.html will be the default startup and we can add index.html
+Open the index.html and write the content
+
+ 
+ ![image](https://user-images.githubusercontent.com/111234771/196574681-4d872e8d-d49d-441e-997b-4be0c267b46d.png)
